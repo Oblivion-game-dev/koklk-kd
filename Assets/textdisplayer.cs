@@ -5,18 +5,8 @@ using TMPro;
 
 public class textdisplayer : MonoBehaviour
 {
-    // Start is called before the first frame update
-    public GameObject toptxt;
-    public GameObject bottomtxt;
-    public float toptimer;
-    public bool toptimerenabled;
-    public float bottomtimer;
-    public bool bottomtimerenabled;
-    void Start()
-    {
-        
-    }
 
+<<<<<<< HEAD
     // Update is called once per frame
     void Update()
     {
@@ -73,4 +63,7 @@ public class textdisplayer : MonoBehaviour
             bottomtimerenabled = false;
         }
     }
+=======
+    
+>>>>>>> 9321b2b (added some trees / terain)
 }
