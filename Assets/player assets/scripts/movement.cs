@@ -93,7 +93,7 @@ public class movement : MonoBehaviour
     public float initCamTiltSwingAmount;
     public float otherCamTiltSin;
     public Vector3 relativeVelocity;
-    public Rigidbody rigidbody;
+    public Rigidbody rigidbodyf;
     public float lastReasonableCamTilt;
     public float lastReasonableOtherCamTilt;
     public bool unreasonableCamTilting;

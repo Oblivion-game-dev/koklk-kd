@@ -66,7 +66,7 @@ public class SFPSC_PlayerMovement : MonoBehaviour
     public bool IsGrounded { get { return isGrounded; } }
 
     private Vector3 inputForce;
-    private int i = 0;
+  
     private float prevY;
     private void FixedUpdate()
     {
