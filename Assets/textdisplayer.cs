@@ -30,10 +30,10 @@ public class textdisplayer : MonoBehaviour
         else
         {
             toptimerenabled = false;
-            toptxt.getComponet<TMP_Text>().text = "";
+            toptxt.transform.GetComponent<TMP_Text>().text = "";
         }
         }
-        if(bottomtimertimerenabled)
+        if(bottomtimerenabled)
         {
         if(bottomtimer > 0)
         {
@@ -43,13 +43,13 @@ public class textdisplayer : MonoBehaviour
         else
         {
             bottomtimerenabled = false;
-            bottomtxt.getComponet<TMP_Text>().text = "";
+            bottomtxt.GetComponent<TMP_Text>().text = "";
         }
         }
     }
     public void settoptext(string text, float time)
     {
-        toptxt.transform.getComponet<TMP_Text>().text = text;
+        toptxt.transform.GetComponent<TMP_Text>().text = text;
         if(time > 0)
         {
             toptimerenabled = true;
@@ -62,7 +62,7 @@ public class textdisplayer : MonoBehaviour
     }
     public void setbottomtext(string text, float time)
     {
-        bottomtxt.transform.getComponent<TMP_Text>().text = text;
+        bottomtxt.transform.GetComponent<TMP_Text>().text = text;
         if(time > 0)
         {
             bottomtimerenabled = true;
